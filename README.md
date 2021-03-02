@@ -17,8 +17,11 @@
 4. ```git config --global core.autocrlf input``` (для автоматической замены **CRLF** на **LF**)
 
 ## Разработка
-Всё как на гитлабе, делаем изменения в форке и открываем ```pull request```
-
+Всё как на гитлабе, делаем изменения в форке и открываем ```pull request```  
+Для подтягивания изменений из оригинального репа:
+1. ```git remote add upstream git@github.com:polytech-coronavirus/Executable-Analyzer.git``` (добавляем один раз, в следующие разы начинаем с пункта 2) 
+2. ```git fetch upstream```
+3. ```git pull upstream master```
 ## Сборка Windows->Windows
 
 1. Устанавливаем [cmake](https://cmake.org/download/) (Windows x64 Installer)
