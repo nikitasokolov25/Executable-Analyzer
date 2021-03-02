@@ -14,8 +14,7 @@
 1. Не забываем добавить содержимое **.ssh/id_rsa.pub** в ключи гитхаба (если его нету, то выполняем ```ssh-keygen```)
 2. Форкаем и выкачиваем реп по ```ssh```
 3. ```cd Executable-Analyzer```
-4. ```git submodule update --init --progress```
-5. ```git config --global core.autocrlf input``` (для автоматической замены **CRLF** на **LF**)
+4. ```git config --global core.autocrlf input``` (для автоматической замены **CRLF** на **LF**)
 
 ## Разработка
 Всё как на гитлабе, делаем изменения в форке и открываем ```pull request```
