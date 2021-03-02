@@ -10,14 +10,19 @@
 Приложение поддерживает пользовательский интерфейс (но также может использоваться и в консольном режиме).
 Было решено использовать кроссплатформенную библиотеку [imgui](https://github.com/ocornut/imgui) с рендером на opengl ([GLFW](https://github.com/glfw/glfw)).
 
+## Установка и настройка репа
 
-## Примеры использования
-
-```пусто```
 
 ## Сборка Windows->Windows
 
-```пусто```
+1. Устанавливаем [cmake](https://cmake.org/download/) (Windows x64 Installer)
+2. Не забываем при установке выбрать "Add CMake to the system PATH for all users"
+3. Идем в папку ```scripts``` и запускаем ```configure_windows_windows.bat```  
+Будут сгенерированы файлы для сборки, а также проект .sln для вижуалки. При добавлении файлов в ней, не забудьте поменять путь внизу на <путь до репа>/ExecutableAnalyzer/src (по умолчанию стоит <путь до репа>/ExecutableAnalyzer/build).
+Сборка по кнопке пока что не работает.
+4. Далее запускаем ```build_windows_windows.bat```  
+Либо ```buildrun_windows_windows.bat```, тогда следующий пункт пропускаем.
+5. Идем в папку build/Debug/ и стартуем наше приложение.
 
 ## Сборка Windows->Linux
 
