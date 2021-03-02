@@ -21,7 +21,7 @@
 Для подтягивания изменений из оригинального репа:
 1. ```git remote add upstream git@github.com:polytech-coronavirus/Executable-Analyzer.git``` (добавляем один раз, в следующие разы начинаем с пункта 2) 
 2. ```git fetch upstream```
-3. ```git pull upstream master```
+3. ```git pull upstream main```
 ## Сборка Windows->Windows
 
 1. Устанавливаем [cmake](https://cmake.org/download/) (Windows x64 Installer)
