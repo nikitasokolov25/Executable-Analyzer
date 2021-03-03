@@ -37,7 +37,9 @@
 
 ## Сборка Linux->Linux
 
-```пусто```
+1. Идем в папку ```scripts```
+2. Запускаем ```./configure_linux_linux.sh```
+3. ```./build_linux_linux.sh``` для сборки проекта (исполняемый файл в папке build)
 
 ## Сборка Linux->Windows
 
