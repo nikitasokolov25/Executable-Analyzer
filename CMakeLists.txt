@@ -33,4 +33,8 @@ if(WIN32)
   target_link_libraries(${CMAKE_PROJECT_NAME} opengl32.lib gdi32.lib shell32.lib)
 endif(WIN32)
 
+if(UNIX)
+  target_link_libraries(${CMAKE_PROJECT_NAME} GL)
+endif(UNIX)
+
 #foxlib opengl32.lib gdi32.lib shell32.lib
