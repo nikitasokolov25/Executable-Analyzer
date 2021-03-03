@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-extern void glfw_error_callback(int error, const char* description);
+static void glfw_error_callback(int error, const char* description);
 
 struct GLFWwindow;
 
